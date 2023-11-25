@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tasks Manager</string>
+    <string name="your_due_tasks">Your Due Tasks</string>
+    <string name="manage_your_tasks">Manage Your Tasks</string>
+    <string name="task_title_ex">Task title : e.g., Renew gym every May</string>
+    <string name="your_due_task">Your Due Task</string>
+    <string name="description_optional">Description [Optional]</string>
+    <string name="location_optional">Location [Optional]</string>
+    <string name="add_your_ntask">Add Your\nTask</string>
+    <string name="your_done_tasks">Your Done\n Tasks</string>
+    <string name="your_tasks">Your Tasks</string>
+    <string name="DueTaskActivity_TXT_your_due_tasks">Your Due Tasks</string>
+    <string name="done_tasks_good_job">Done Tasks Good Job</string>
+    <string name="done">Done</string>
+    <string name="delete">Delete</string>
+</resources>

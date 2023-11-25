@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".CheckTasks">
+
+
+    <TextView
+        android:id="@+id/txtTitleDone"
+        style="@style/txtCheckTaskActivity_Style"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtDesDone"
+        style="@style/txtCheckTaskActivity_Style"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtLocDone"
+        style="@style/txtCheckTaskActivity_Style"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtDateDone"
+        style="@style/txtCheckTaskActivity_Style"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/chkDelete"
+        style="@style/txtCheckTaskActivity_Style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDelete"
+        android:layout_width="58dp"
+        android:layout_height="61dp"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:src="@drawable/baseline_delete_outline_24"
+        app:backgroundTint="#1BACEF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.ExtraLarge"
+        app:srcCompat="@drawable/ic_launcher_foreground"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

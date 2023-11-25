@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Main_Activity_Buttons_Style">
+        <item name="android:backgroundTint">#1BACEF</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="AddTaskActivity_editTexts_style">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:backgroundTint">#020202</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#474747</item>
+        <item name="android:inputType">text</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">19dp</item>
+    </style>
+
+    <style name="AddTaskActivityButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:backgroundTint">#1BACEF</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="txtCheckTaskActivity_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="List_View_HEADER">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+</resources>

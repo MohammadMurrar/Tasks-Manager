@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".AddTaskActivity">
+
+
+    <EditText
+        android:id="@+id/edtTaskTitle"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_title_ex"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        style="@style/AddTaskActivity_editTexts_style"/>
+
+    <EditText
+        android:id="@+id/edtTaskDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/description_optional"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112"
+        style="@style/AddTaskActivity_editTexts_style"/>
+
+    <EditText
+        android:id="@+id/edtTaskLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/location_optional"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224"
+        style="@style/AddTaskActivity_editTexts_style"/>
+
+    <CalendarView
+        android:id="@+id/calendarView_DueTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:backgroundTint="#1BACEF"
+        android:dateTextAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:padding="20dp"
+        android:weekDayTextAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
+
+    <Button
+        android:id="@+id/btnAddTasks"
+        android:layout_gravity="right"
+        android:text="@string/add_your_ntask"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.968"
+        style="@style/AddTaskActivityButtons"/>
+
+    <Button
+        android:id="@+id/btnTasks"
+        android:text="@string/your_tasks"
+        android:layout_width="109dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.968"
+        style="@style/AddTaskActivityButtons"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabBack"
+        android:layout_width="56dp"
+        android:layout_height="57dp"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:backgroundTint="#1BACEF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.ExtraLarge"
+        app:srcCompat="@drawable/ic_launcher_foreground"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
